@@ -1,7 +1,6 @@
 ## PROBLEMA SWITCH 1
->crear una seleccion de distintos tipos de suscripcion para una pagina
->
->en caso de que el ingreso no sea valido informar,
+>Crear una seleccion de distintos tipos de suscripcion para una pagina.
+>En caso de que el ingreso no sea valido informar,
 >caso contrario mostrar la cantidad de meses suscrito al servicio
 >y los beneficios obtenidos:
 - 1 mes - 1 dispositivo activo
