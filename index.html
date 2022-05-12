@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(188, 209, 188);">
+    <!--
+        mostrar una lista de opciones para suscribirse al servicio
+        
+        requisito
+             una vez que el usuario seleccione el tipo de suscripcion 
+             entonces debe mostrarse el resultado
+
+        info:             
+            *  1 mes - 1 dispositivo activo
+            *  3 meses - 2 dispositivos activos
+            *  6 meses - 4 dispositivos activos
+            *  12 meses - 6 dispositivos activos
+    -->
+    <div style="display: grid; place-items: center; margin-top: 10%;">
+        <label for="lista_suscripciones">Suscribirse por:</label>
+        <select onchange="verificarSuscripcion()" name="suscripcion" id="lista_suscripciones">
+            <option value="0">Seleccione..</option>
+            <option value="1">1 Mes</option>
+            <option value="3">3 Meses</option>
+            <option value="6">6 Meses</option>
+            <option value="12">1 año</option>
+        </select>
+
+    <div id="respuesta">
+
+    </div>
+    </div>
+
+    <script src="suscripcion.js"></script>
+
+</body>
+</html>
